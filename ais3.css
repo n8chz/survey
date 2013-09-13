@@ -1,0 +1,201 @@
+body {
+ font-family:"sans";
+ font-size:16px;
+ background:#eeeeee;
+ color:black;
+ padding:1em;
+}
+form {
+ background:#dddddd;
+ border:none;
+}
+#heading {
+ font-weight:bold;
+ font-size:20px;
+}
+#guide {
+ font-style:italic;
+}
+legend {
+ background:#dddddd;
+ border-width:1px;
+ border-color:black;
+}
+.section {
+ font-weight:bold;
+}
+/*
+fieldset {
+ margin-top:1em;
+ border-width:1px;
+ border-color:black;
+}
+*/
+fieldset {
+ background:#cccccc;
+ border:none;
+ margin-top:1em;
+}
+fieldset fieldset {
+ background:#bbbbbb;
+}
+fieldset fieldset fieldset {
+ background:#aaaaaa;
+}
+fieldset fieldset fieldset fieldset {
+ background:#999999;
+}
+.question label {
+ width:30em;
+ text-align:center;
+}
+label:hover {
+ text-decoration:underline;
+}
+.deg1 {
+ background:#ff8080;
+}
+.deg2 {
+ background:#ffbf80;
+}
+.deg3 {
+ background:#ffff80;
+}
+.deg4 {
+ background:#bfff80;
+}
+.deg5 {
+ background:#80ff80;
+}
+.friends, .foes {
+ width:33%;
+ padding:0.5em;
+}
+.friends {
+ background:#80ff80;
+ float:left;
+}
+.foes {
+ background:#ff8080;
+ float:right;
+}
+a:hover {
+ text-decoration:none;
+ background:black;
+ color:white;
+}
+.text {
+ position:relative;
+ left:0.5em;
+}
+th {
+ text-align:left;
+}
+.radio {
+ width:15%;
+}
+.conflict8 {
+ background:#ff8080;
+}
+.conflict6 {
+ background:#ffaa80;
+}
+.conflict5 {
+ background:#ffd580;
+}
+.conflict4 {
+ background:#ffff80;
+}
+.conflict3 {
+ background:#d5ff80;
+}
+.conflict2 {
+ background:#aaff80;
+}
+.conflict0 {
+ background:#80ff80;
+}
+caption {
+ font-size:20px;
+ font-weight:bold;
+}
+dl {
+ margin:0; 
+ padding:15px; 
+ height:auto; 
+ overflow:hidden;
+ background:#e0cde7;
+}
+
+dt {
+ text-align:left; 
+ float:left;
+ clear:left;
+ width:30%;
+ color:#6d3775;
+ background:#9fcac3;
+ font-size:1.2em;
+}
+
+dd {
+ margin:0; 
+ display:block; 
+ height:1.5em;
+ background:#34301e; 
+ border-bottom:1px solid #fff;
+ float:left;
+}
+em {
+ font-weight:bold;
+}
+.corr {
+ text-align:right;
+ width:9em;
+ margin-right:1em;
+ font-family:"courier";
+}
+.qtext {
+ width:79%;
+}
+table {
+ margin-left:auto;
+ margin-right:auto;
+}
+.date {
+ width:10em;
+ text-align:right;
+ margin-right:1em;
+ float:left;
+}
+#nav {
+ width:19%;
+ float:left;
+ margin-top:3em;
+ background:#555;
+ color:white;
+ padding:0.5em;
+}
+#nav a {
+ text-decoration:none;
+ font-size:1.5em;
+ color:white;
+}
+#nav img {
+ height:1em;
+}
+#nav a:visited {
+ color:white;
+}
+#intro {
+ width:79%;
+ float:right;
+}
+.section-label, .section-input {
+ font-weight:bold;
+}
+.section-input, .question-input {
+ width:100%;
+}
+
+
+
