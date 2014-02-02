@@ -1,5 +1,5 @@
 <?php
-# header_remove();
+header_remove();
 header("Content-Type: application/rss+xml");
 ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
